@@ -1,0 +1,12 @@
+{
+  "name": "sol-bdd",
+  "version": "1.0.0",
+  "description": "behaviour driven development for smart contracts",
+  "main": "index.js",
+  "repository": "git@github.com:marronjo/sol-bdd.git",
+  "author": "Joe Marron",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1"
+  }
+}
