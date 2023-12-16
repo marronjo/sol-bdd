@@ -4,12 +4,21 @@
   "description": "behaviour driven development for smart contracts",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js -p default"
   },
   "repository": "git@github.com:marronjo/sol-bdd.git",
   "author": "Joe Marron",
   "license": "MIT",
   "devDependencies": {
-    "@cucumber/cucumber": "^10.0.1"
+    "@cucumber/cucumber": "^10.0.1",
+    "@types/chai": "^4.1.7",
+    "@types/cucumber": "^4.0.5",
+    "@types/node": "^20.10.4",
+    "chai": "^4.3.10",
+    "cucumber": "^6.0.7",
+    "cucumber-pretty": "^6.0.1",
+    "cucumber-tsflow": "^4.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
