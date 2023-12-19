@@ -1,4 +1,4 @@
-Feature: starter
+Feature: day of the week
   Everybody wants to know when it's Friday
 
   Scenario: Sunday isn't Friday
