@@ -11,10 +11,10 @@
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/forge-std/src/StdUtils.sol\":\"StdUtils\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x502b18a4becda6ecd91fa8b419d8034946bfa80e6cc7f6497f51f8565bfadae0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bf499ee483a1dfd02023d4ce78ed4029a49794ccd5b849aaab912faea0d2ba61\",\"dweb:/ipfs/QmP6hwNZW7sYbQK9fBzuZWxfLm6Swx2nKzvZ54qWNqQkzX\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x900efafd1d4e7cff7b0f4f4b0c047a79702533ee58e2b22c49113cec49b7a9be\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e8a09c3c69d445ce4d96afd73652f06fabc62658025a37284a5f9cce74497f2\",\"dweb:/ipfs/QmeCkRwgx3k51XyqEVk8FntuFYC8auVzqSgtSq1DHiR3KG\"]},\"lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"lib/forge-std/src/mocks/MockERC20.sol\":{\"keccak256\":\"0xd8703f49411737ecf8d411f8fa66b2bf0ef972ba28b7a4adf1748c63df1bf682\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b7c10a6b8112f6fe3cdccb6240ecd382765216b1a82e9a86a0fec8f5e09eadd1\",\"dweb:/ipfs/QmdRvPCU4RkjMHsTu3Ric1ZEF1AWDNLp78unFC5aWP17xq\"]},\"lib/forge-std/src/mocks/MockERC721.sol\":{\"keccak256\":\"0xa24468244abb66e663fb7eee6463cb518eb9a7c14e1071548ff564cca825bbca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://145585a2194aa6e2d30edfe709ef2814e20b1b4540469aa6a8f50c841fcb9070\",\"dweb:/ipfs/QmZrwbvtpbtTxqbW5phUrwb3F1tBiPSQc6jZJAXBfsBsAh\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/forge-std/src/StdUtils.sol\":\"StdUtils\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x502b18a4becda6ecd91fa8b419d8034946bfa80e6cc7f6497f51f8565bfadae0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bf499ee483a1dfd02023d4ce78ed4029a49794ccd5b849aaab912faea0d2ba61\",\"dweb:/ipfs/QmP6hwNZW7sYbQK9fBzuZWxfLm6Swx2nKzvZ54qWNqQkzX\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x900efafd1d4e7cff7b0f4f4b0c047a79702533ee58e2b22c49113cec49b7a9be\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e8a09c3c69d445ce4d96afd73652f06fabc62658025a37284a5f9cce74497f2\",\"dweb:/ipfs/QmeCkRwgx3k51XyqEVk8FntuFYC8auVzqSgtSq1DHiR3KG\"]},\"lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"lib/forge-std/src/mocks/MockERC20.sol\":{\"keccak256\":\"0xd8703f49411737ecf8d411f8fa66b2bf0ef972ba28b7a4adf1748c63df1bf682\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b7c10a6b8112f6fe3cdccb6240ecd382765216b1a82e9a86a0fec8f5e09eadd1\",\"dweb:/ipfs/QmdRvPCU4RkjMHsTu3Ric1ZEF1AWDNLp78unFC5aWP17xq\"]},\"lib/forge-std/src/mocks/MockERC721.sol\":{\"keccak256\":\"0xa24468244abb66e663fb7eee6463cb518eb9a7c14e1071548ff564cca825bbca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://145585a2194aa6e2d30edfe709ef2814e20b1b4540469aa6a8f50c841fcb9070\",\"dweb:/ipfs/QmZrwbvtpbtTxqbW5phUrwb3F1tBiPSQc6jZJAXBfsBsAh\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
-      "version": "0.8.21+commit.d9974bed"
+      "version": "0.8.13+commit.abaa5c0e"
     },
     "language": "Solidity",
     "output": {
@@ -270,9 +270,6 @@
               "pathNode": {
                 "id": 11393,
                 "name": "IMulticall3",
-                "nameLocations": [
-                  "535:11:12"
-                ],
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 30442,
                 "src": "535:11:12"
@@ -327,7 +324,6 @@
               "isPure": true,
               "kind": "typeConversion",
               "lValueRequested": false,
-              "nameLocations": [],
               "names": [],
               "nodeType": "FunctionCall",
               "src": "576:55:12",
@@ -361,9 +357,6 @@
               "pathNode": {
                 "id": 11399,
                 "name": "VmSafe",
-                "nameLocations": [
-                  "637:6:12"
-                ],
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 13597,
                 "src": "637:6:12"
@@ -426,7 +419,6 @@
                               "isPure": true,
                               "kind": "functionCall",
                               "lValueRequested": false,
-                              "nameLocations": [],
                               "names": [],
                               "nodeType": "FunctionCall",
                               "src": "697:28:12",
@@ -469,7 +461,6 @@
                           "isPure": true,
                           "kind": "typeConversion",
                           "lValueRequested": false,
-                          "nameLocations": [],
                           "names": [],
                           "nodeType": "FunctionCall",
                           "src": "689:37:12",
@@ -512,7 +503,6 @@
                       "isPure": true,
                       "kind": "typeConversion",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "681:46:12",
@@ -555,7 +545,6 @@
                   "isPure": true,
                   "kind": "typeConversion",
                   "lValueRequested": false,
-                  "nameLocations": [],
                   "names": [],
                   "nodeType": "FunctionCall",
                   "src": "673:55:12",
@@ -590,7 +579,6 @@
               "isPure": true,
               "kind": "typeConversion",
               "lValueRequested": false,
-              "nameLocations": [],
               "names": [],
               "nodeType": "FunctionCall",
               "src": "666:63:12",
@@ -928,7 +916,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "1756:85:12",
@@ -2620,7 +2607,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "3033:19:12",
@@ -2704,7 +2690,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "3062:45:12",
@@ -2956,7 +2941,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "3226:82:12",
@@ -3110,7 +3094,6 @@
                             "isPure": false,
                             "kind": "typeConversion",
                             "lValueRequested": false,
-                            "nameLocations": [],
                             "names": [],
                             "nodeType": "FunctionCall",
                             "src": "3795:10:12",
@@ -3254,7 +3237,6 @@
                                 "isPure": false,
                                 "kind": "typeConversion",
                                 "lValueRequested": false,
-                                "nameLocations": [],
                                 "names": [],
                                 "nodeType": "FunctionCall",
                                 "src": "3776:10:12",
@@ -3461,7 +3443,6 @@
                             "isPure": false,
                             "kind": "typeConversion",
                             "lValueRequested": false,
-                            "nameLocations": [],
                             "names": [],
                             "nodeType": "FunctionCall",
                             "src": "3898:12:12",
@@ -3605,7 +3586,6 @@
                                 "isPure": false,
                                 "kind": "typeConversion",
                                 "lValueRequested": false,
-                                "nameLocations": [],
                                 "names": [],
                                 "nodeType": "FunctionCall",
                                 "src": "3877:12:12",
@@ -3812,7 +3792,6 @@
                             "isPure": false,
                             "kind": "typeConversion",
                             "lValueRequested": false,
-                            "nameLocations": [],
                             "names": [],
                             "nodeType": "FunctionCall",
                             "src": "4003:12:12",
@@ -3956,7 +3935,6 @@
                                 "isPure": false,
                                 "kind": "typeConversion",
                                 "lValueRequested": false,
-                                "nameLocations": [],
                                 "names": [],
                                 "nodeType": "FunctionCall",
                                 "src": "3982:12:12",
@@ -4131,7 +4109,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "4056:22:12",
@@ -4285,7 +4262,6 @@
                         "isPure": false,
                         "kind": "typeConversion",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "4232:26:12",
@@ -4444,7 +4420,6 @@
                         "isPure": false,
                         "kind": "typeConversion",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "4196:33:12",
@@ -4709,7 +4684,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "4385:19:12",
@@ -4787,7 +4761,6 @@
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "4455:8:12",
                           "memberName": "toString",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 13157,
@@ -4803,7 +4776,6 @@
                         "isPure": false,
                         "kind": "functionCall",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "4452:19:12",
@@ -4846,7 +4818,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "4414:58:12",
@@ -5138,7 +5109,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "4596:42:12",
@@ -5280,7 +5250,6 @@
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "4748:6:12",
                           "memberName": "length",
                           "nodeType": "MemberAccess",
                           "src": "4746:8:12",
@@ -5361,7 +5330,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "4738:80:12",
@@ -5428,7 +5396,6 @@
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
-                                  "memberLocation": "4880:6:12",
                                   "memberName": "length",
                                   "nodeType": "MemberAccess",
                                   "src": "4878:8:12",
@@ -5479,7 +5446,6 @@
                             "isPure": false,
                             "kind": "functionCall",
                             "lValueRequested": false,
-                            "nameLocations": [],
                             "names": [],
                             "nodeType": "FunctionCall",
                             "src": "4863:24:12",
@@ -5530,7 +5496,6 @@
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
-                          "memberLocation": "4850:12:12",
                           "memberName": "encodePacked",
                           "nodeType": "MemberAccess",
                           "src": "4846:16:12",
@@ -5545,7 +5510,6 @@
                         "isPure": false,
                         "kind": "functionCall",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "4846:45:12",
@@ -5620,7 +5584,6 @@
                       "isLValue": false,
                       "isPure": true,
                       "lValueRequested": false,
-                      "memberLocation": "4839:6:12",
                       "memberName": "decode",
                       "nodeType": "MemberAccess",
                       "src": "4835:10:12",
@@ -5635,7 +5598,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "4835:68:12",
@@ -5789,7 +5751,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "5257:104:12",
@@ -5859,7 +5820,6 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "5381:20:12",
                       "memberName": "computeCreateAddress",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 13222,
@@ -5875,7 +5835,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "5378:40:12",
@@ -6064,7 +6023,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "5602:106:12",
@@ -6150,7 +6108,6 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "5728:21:12",
                       "memberName": "computeCreate2Address",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 13233,
@@ -6166,7 +6123,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "5725:54:12",
@@ -6376,7 +6332,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "6004:106:12",
@@ -6446,7 +6401,6 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "6130:21:12",
                       "memberName": "computeCreate2Address",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 13242,
@@ -6462,7 +6416,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "6127:44:12",
@@ -6644,9 +6597,6 @@
                           "pathNode": {
                             "id": 11866,
                             "name": "MockERC20",
-                            "nameLocations": [
-                              "6398:9:12"
-                            ],
                             "nodeType": "IdentifierPath",
                             "referencedDeclaration": 30962,
                             "src": "6398:9:12"
@@ -6665,7 +6615,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "6394:15:12",
@@ -6757,7 +6706,6 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "6424:10:12",
                       "memberName": "initialize",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 30533,
@@ -6773,7 +6721,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "6419:39:12",
@@ -6913,9 +6860,6 @@
                     "pathNode": {
                       "id": 11861,
                       "name": "MockERC20",
-                      "nameLocations": [
-                        "6357:9:12"
-                      ],
                       "nodeType": "IdentifierPath",
                       "referencedDeclaration": 30962,
                       "src": "6357:9:12"
@@ -6990,9 +6934,6 @@
                           "pathNode": {
                             "id": 11893,
                             "name": "MockERC721",
-                            "nameLocations": [
-                              "6652:10:12"
-                            ],
                             "nodeType": "IdentifierPath",
                             "referencedDeclaration": 31530,
                             "src": "6652:10:12"
@@ -7011,7 +6952,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "6648:16:12",
@@ -7087,7 +7027,6 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "6679:10:12",
                       "memberName": "initialize",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 31094,
@@ -7103,7 +7042,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "6674:29:12",
@@ -7216,9 +7154,6 @@
                     "pathNode": {
                       "id": 11888,
                       "name": "MockERC721",
-                      "nameLocations": [
-                        "6614:10:12"
-                      ],
                       "nodeType": "IdentifierPath",
                       "referencedDeclaration": 31530,
                       "src": "6614:10:12"
@@ -7314,7 +7249,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "7032:30:12",
@@ -7484,7 +7418,6 @@
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
-                          "memberLocation": "7473:12:12",
                           "memberName": "encodePacked",
                           "nodeType": "MemberAccess",
                           "src": "7469:16:12",
@@ -7499,7 +7432,6 @@
                         "isPure": false,
                         "kind": "functionCall",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "7469:36:12",
@@ -7534,7 +7466,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "7459:47:12",
@@ -7712,37 +7643,31 @@
                 },
                 {
                   "AST": {
-                    "nativeSrc": "7824:59:12",
                     "nodeType": "YulBlock",
                     "src": "7824:59:12",
                     "statements": [
                       {
-                        "nativeSrc": "7838:35:12",
                         "nodeType": "YulAssignment",
                         "src": "7838:35:12",
                         "value": {
                           "arguments": [
                             {
                               "name": "token",
-                              "nativeSrc": "7867:5:12",
                               "nodeType": "YulIdentifier",
                               "src": "7867:5:12"
                             }
                           ],
                           "functionName": {
                             "name": "extcodesize",
-                            "nativeSrc": "7855:11:12",
                             "nodeType": "YulIdentifier",
                             "src": "7855:11:12"
                           },
-                          "nativeSrc": "7855:18:12",
                           "nodeType": "YulFunctionCall",
                           "src": "7855:18:12"
                         },
                         "variableNames": [
                           {
                             "name": "tokenCodeSize",
-                            "nativeSrc": "7838:13:12",
                             "nodeType": "YulIdentifier",
                             "src": "7838:13:12"
                           }
@@ -7750,7 +7675,7 @@
                       }
                     ]
                   },
-                  "evmVersion": "paris",
+                  "evmVersion": "london",
                   "externalReferences": [
                     {
                       "declaration": 11942,
@@ -7868,7 +7793,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "7892:108:12",
@@ -7934,7 +7858,6 @@
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
-                    "memberLocation": "8094:6:12",
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "src": "8084:16:12",
@@ -7973,10 +7896,6 @@
                           "pathNode": {
                             "id": 11969,
                             "name": "IMulticall3.Call",
-                            "nameLocations": [
-                              "8110:11:12",
-                              "8122:4:12"
-                            ],
                             "nodeType": "IdentifierPath",
                             "referencedDeclaration": 30287,
                             "src": "8110:16:12"
@@ -8040,10 +7959,6 @@
                           "pathNode": {
                             "id": 11973,
                             "name": "IMulticall3.Call",
-                            "nameLocations": [
-                              "8148:11:12",
-                              "8160:4:12"
-                            ],
                             "nodeType": "IdentifierPath",
                             "referencedDeclaration": 30287,
                             "src": "8148:16:12"
@@ -8070,7 +7985,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "8144:30:12",
@@ -8249,7 +8163,6 @@
                                   "isLValue": false,
                                   "isPure": true,
                                   "lValueRequested": false,
-                                  "memberLocation": "8351:18:12",
                                   "memberName": "encodeWithSelector",
                                   "nodeType": "MemberAccess",
                                   "src": "8347:22:12",
@@ -8264,7 +8177,6 @@
                                 "isPure": false,
                                 "kind": "functionCall",
                                 "lValueRequested": false,
-                                "nameLocations": [],
                                 "names": [],
                                 "nodeType": "FunctionCall",
                                 "src": "8347:50:12",
@@ -8303,7 +8215,6 @@
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
-                              "memberLocation": "8316:4:12",
                               "memberName": "Call",
                               "nodeType": "MemberAccess",
                               "referencedDeclaration": 30287,
@@ -8319,10 +8230,6 @@
                             "isPure": false,
                             "kind": "structConstructorCall",
                             "lValueRequested": false,
-                            "nameLocations": [
-                              "8322:6:12",
-                              "8337:8:12"
-                            ],
                             "names": [
                               "target",
                               "callData"
@@ -8562,7 +8469,6 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "8498:9:12",
                       "memberName": "aggregate",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 30320,
@@ -8578,7 +8484,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "8488:26:12",
@@ -8671,7 +8576,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "8599:21:12",
@@ -8847,7 +8751,6 @@
                               "isLValue": false,
                               "isPure": true,
                               "lValueRequested": false,
-                              "memberLocation": "8699:6:12",
                               "memberName": "decode",
                               "nodeType": "MemberAccess",
                               "src": "8695:10:12",
@@ -8862,7 +8765,6 @@
                             "isPure": false,
                             "kind": "functionCall",
                             "lValueRequested": false,
-                            "nameLocations": [],
                             "names": [],
                             "nodeType": "FunctionCall",
                             "src": "8695:36:12",
@@ -9205,7 +9107,6 @@
                             "isPure": false,
                             "kind": "typeConversion",
                             "lValueRequested": false,
-                            "nameLocations": [],
                             "names": [],
                             "nodeType": "FunctionCall",
                             "src": "9084:19:12",
@@ -9248,7 +9149,6 @@
                         "isPure": false,
                         "kind": "typeConversion",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "9076:28:12",
@@ -9291,7 +9191,6 @@
                     "isPure": false,
                     "kind": "typeConversion",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "9068:37:12",
@@ -9400,24 +9299,20 @@
               "statements": [
                 {
                   "AST": {
-                    "nativeSrc": "9599:37:12",
                     "nodeType": "YulBlock",
                     "src": "9599:37:12",
                     "statements": [
                       {
-                        "nativeSrc": "9613:13:12",
                         "nodeType": "YulAssignment",
                         "src": "9613:13:12",
                         "value": {
                           "name": "fnIn",
-                          "nativeSrc": "9622:4:12",
                           "nodeType": "YulIdentifier",
                           "src": "9622:4:12"
                         },
                         "variableNames": [
                           {
                             "name": "fnOut",
-                            "nativeSrc": "9613:5:12",
                             "nodeType": "YulIdentifier",
                             "src": "9613:5:12"
                           }
@@ -9425,7 +9320,7 @@
                       }
                     ]
                   },
-                  "evmVersion": "paris",
+                  "evmVersion": "london",
                   "externalReferences": [
                     {
                       "declaration": 12079,
@@ -9680,7 +9575,6 @@
                       "isPure": false,
                       "kind": "functionCall",
                       "lValueRequested": false,
-                      "nameLocations": [],
                       "names": [],
                       "nodeType": "FunctionCall",
                       "src": "9719:46:12",
@@ -9696,7 +9590,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "9719:55:12",
@@ -9825,7 +9718,6 @@
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
-                    "memberLocation": "9893:6:12",
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "src": "9885:14:12",
@@ -9889,25 +9781,21 @@
                 },
                 {
                   "AST": {
-                    "nativeSrc": "10012:150:12",
                     "nodeType": "YulBlock",
                     "src": "10012:150:12",
                     "statements": [
                       {
-                        "nativeSrc": "10026:36:12",
                         "nodeType": "YulVariableDeclaration",
                         "src": "10026:36:12",
                         "value": {
                           "arguments": [
                             {
                               "name": "payload",
-                              "nativeSrc": "10050:7:12",
                               "nodeType": "YulIdentifier",
                               "src": "10050:7:12"
                             },
                             {
                               "kind": "number",
-                              "nativeSrc": "10059:2:12",
                               "nodeType": "YulLiteral",
                               "src": "10059:2:12",
                               "type": "",
@@ -9916,18 +9804,15 @@
                           ],
                           "functionName": {
                             "name": "add",
-                            "nativeSrc": "10046:3:12",
                             "nodeType": "YulIdentifier",
                             "src": "10046:3:12"
                           },
-                          "nativeSrc": "10046:16:12",
                           "nodeType": "YulFunctionCall",
                           "src": "10046:16:12"
                         },
                         "variables": [
                           {
                             "name": "payloadStart",
-                            "nativeSrc": "10030:12:12",
                             "nodeType": "YulTypedName",
                             "src": "10030:12:12",
                             "type": ""
@@ -9935,7 +9820,6 @@
                         ]
                       },
                       {
-                        "nativeSrc": "10075:77:12",
                         "nodeType": "YulVariableDeclaration",
                         "src": "10075:77:12",
                         "value": {
@@ -9944,35 +9828,29 @@
                               "arguments": [],
                               "functionName": {
                                 "name": "gas",
-                                "nativeSrc": "10095:3:12",
                                 "nodeType": "YulIdentifier",
                                 "src": "10095:3:12"
                               },
-                              "nativeSrc": "10095:5:12",
                               "nodeType": "YulFunctionCall",
                               "src": "10095:5:12"
                             },
                             {
                               "name": "consoleAddress",
-                              "nativeSrc": "10102:14:12",
                               "nodeType": "YulIdentifier",
                               "src": "10102:14:12"
                             },
                             {
                               "name": "payloadStart",
-                              "nativeSrc": "10118:12:12",
                               "nodeType": "YulIdentifier",
                               "src": "10118:12:12"
                             },
                             {
                               "name": "payloadLength",
-                              "nativeSrc": "10132:13:12",
                               "nodeType": "YulIdentifier",
                               "src": "10132:13:12"
                             },
                             {
                               "kind": "number",
-                              "nativeSrc": "10147:1:12",
                               "nodeType": "YulLiteral",
                               "src": "10147:1:12",
                               "type": "",
@@ -9980,7 +9858,6 @@
                             },
                             {
                               "kind": "number",
-                              "nativeSrc": "10150:1:12",
                               "nodeType": "YulLiteral",
                               "src": "10150:1:12",
                               "type": "",
@@ -9989,18 +9866,15 @@
                           ],
                           "functionName": {
                             "name": "staticcall",
-                            "nativeSrc": "10084:10:12",
                             "nodeType": "YulIdentifier",
                             "src": "10084:10:12"
                           },
-                          "nativeSrc": "10084:68:12",
                           "nodeType": "YulFunctionCall",
                           "src": "10084:68:12"
                         },
                         "variables": [
                           {
                             "name": "r",
-                            "nativeSrc": "10079:1:12",
                             "nodeType": "YulTypedName",
                             "src": "10079:1:12",
                             "type": ""
@@ -10010,7 +9884,7 @@
                     ]
                   },
                   "documentation": "@solidity memory-safe-assembly",
-                  "evmVersion": "paris",
+                  "evmVersion": "london",
                   "externalReferences": [
                     {
                       "declaration": 12113,
@@ -10163,7 +10037,6 @@
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
-                          "memberLocation": "10266:19:12",
                           "memberName": "encodeWithSignature",
                           "nodeType": "MemberAccess",
                           "src": "10262:23:12",
@@ -10178,7 +10051,6 @@
                         "isPure": false,
                         "kind": "functionCall",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "10262:42:12",
@@ -10213,7 +10085,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "10246:59:12",
@@ -10368,7 +10239,6 @@
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
-                          "memberLocation": "10422:19:12",
                           "memberName": "encodeWithSignature",
                           "nodeType": "MemberAccess",
                           "src": "10418:23:12",
@@ -10383,7 +10253,6 @@
                         "isPure": false,
                         "kind": "functionCall",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "10418:54:12",
@@ -10418,7 +10287,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "10402:71:12",
@@ -10600,7 +10468,6 @@
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
-                          "memberLocation": "10596:19:12",
                           "memberName": "encodeWithSignature",
                           "nodeType": "MemberAccess",
                           "src": "10592:23:12",
@@ -10615,7 +10482,6 @@
                         "isPure": false,
                         "kind": "functionCall",
                         "lValueRequested": false,
-                        "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
                         "src": "10592:53:12",
@@ -10650,7 +10516,6 @@
                     "isPure": false,
                     "kind": "functionCall",
                     "lValueRequested": false,
-                    "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
                     "src": "10576:70:12",
@@ -10756,8 +10621,7 @@
         "name": "StdUtils",
         "nameLocation": "310:8:12",
         "scope": 12168,
-        "usedErrors": [],
-        "usedEvents": []
+        "usedErrors": []
       }
     ],
     "license": "MIT"

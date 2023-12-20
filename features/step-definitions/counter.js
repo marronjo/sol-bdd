@@ -1,50 +1,33 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-
+const ethers = require('ethers');
 const assert = require('assert');
-const { ethers, JsonRpcProvider } = require('ethers');
-
 const Counter = require('../../out/Counter.sol/Counter.json');
 require('dotenv').config();
 
-// Alias -> Deployed Contract Address
-// e.g A -> 0x123....
-let contractAliasMap = new Map();
+let deployedContractAliasMap = new Map();
 
-//anvil private key
-const PRIVATE_KEY = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
 
 Given('Counter contract is deployed, with alias {string}', async function (alias) {
-    let provider =  new JsonRpcProvider();
+    let provider = new ethers.providers.JsonRpcProvider();
     let signer = new ethers.Wallet(PRIVATE_KEY,provider);
 
-    const tokenContract = new ethers.ContractFactory(Counter.abi, Counter.bytecode, signer);
+    const tokenContractFactory = new ethers.ContractFactory(Counter.abi, Counter.bytecode, signer);
+    const baseTokenContract = await tokenContractFactory.deploy();
 
-    const deployedContract = await tokenContract.deploy();
-    contractAliasMap.set(alias, await deployedContract.getAddress())
+    const deployedContract = await baseTokenContract.deployed();
+
+    deployedContractAliasMap.set(alias, deployedContract);
 });
 
-When('The counter on deployed Counter contract {string} is incrimented', async function (alias) {
-    let provider =  new JsonRpcProvider();
-    let signer = new ethers.Wallet(PRIVATE_KEY,provider);
-
-    let contract = new ethers.Contract(
-        contractAliasMap.get(alias),
-        Counter.abi,
-        signer
-    );
-
-    await contract.increment();
+When('the deployed Counter contract {string} is incrimented', async function (alias) {
+    await deployedContractAliasMap.get(alias).increment();
 });
 
-Then('Then the stored value should be {int} in contract {string}', async function (value, alias) {
-    let provider =  new JsonRpcProvider();
-    let signer = new ethers.Wallet(PRIVATE_KEY,provider);
+When('the deployed Counter contract {string} is set to {int}', async function (alias, value) {
+    await deployedContractAliasMap.get(alias).setNumber(value);
+});
 
-    let contract = new ethers.Contract(
-        contractAliasMap.get(alias),
-        Counter.abi,
-        signer
-    );
-    
-    assert.strictEqual(parseInt(await contract.number()), value);
+Then('the stored value should be equal to {int} in contract {string}', async function (value, alias) {
+    assert.strictEqual(parseInt(await deployedContractAliasMap.get(alias).number()), value);
 });
