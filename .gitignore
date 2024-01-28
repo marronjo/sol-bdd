@@ -3,3 +3,7 @@ yarn-error.log
 
 /cache
 /out
+
+.env
+
+out

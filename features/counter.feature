@@ -10,3 +10,10 @@ Feature: Foundry Counter Contract
     Given Counter contract is deployed, with alias "B"
     When the deployed Counter contract "B" is set to 10
     Then the stored value should be equal to 10 in contract "B"
+  
+  Scenario: Multiple Incriments counter
+    Given Counter contract is deployed, with alias "C"
+    When the deployed Counter contract "C" is incrimented
+    Then the stored value should be equal to 1 in contract "C"
+    When the deployed Counter contract "C" is incrimented
+    Then the stored value should be equal to 2 in contract "C"

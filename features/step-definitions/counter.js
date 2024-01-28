@@ -29,5 +29,24 @@ When('the deployed Counter contract {string} is set to {int}', async function (a
 });
 
 Then('the stored value should be equal to {int} in contract {string}', async function (value, alias) {
-    assert.strictEqual(parseInt(await deployedContractAliasMap.get(alias).number()), value);
+    let storedUint = await deployedContractAliasMap.get(alias).number();
+    assert.strictEqual(parseInt(storedUint), value);
 });
+
+async function signMessage(recipient, amount, nonce, contractAddress) {
+    let messageHash = ethers.utils.solidityKeccak256(
+        ["address", "uint256", "uint256", "address"],
+        [
+            recipient,
+            amount,
+            nonce,
+            contractAddress
+        ]
+    );
+    return await signer.signMessage(messageHash);
+}
+
+// "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+//             "1986982349",
+//             "9875640958",
+//             "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
